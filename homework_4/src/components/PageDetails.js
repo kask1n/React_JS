@@ -1,4 +1,4 @@
-import { useParams, NavLink } from "react-router-dom";
+import { useParams, NavLink } from 'react-router-dom';
 
 function PageDetails({ pages }) {
   const params = useParams();
@@ -12,11 +12,11 @@ function PageDetails({ pages }) {
             <h1>{page.text}</h1>
             <NavLink
               style={{
-                textAlign: "center",
-                fontSize: "20px",
-                listStyleType: "none"
+                textAlign: 'center',
+                fontSize: '20px',
+                listStyleType: 'none'
               }}
-              to={"/"}
+              to={'/'}
             >
               <li>Back</li>
             </NavLink>

@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 function ListPage({ pages }) {
   return (
@@ -9,9 +9,9 @@ function ListPage({ pages }) {
           <NavLink
             key={i}
             style={{
-              textAlign: "left",
-              fontSize: "20px",
-              listStyleType: "none"
+              textAlign: 'left',
+              fontSize: '20px',
+              listStyleType: 'none'
             }}
             to={`/detail/${i + 1}`}
           >

@@ -46,11 +46,11 @@ const Registration = () => {
             perks. Starting with these as soon as you join:
           </p>
           <ul className="registration__text registration_list">
-            <li> &nbsp;&nbsp;15% off welcome offer</li>
-            <li> &nbsp;&nbsp;Free shipping, returns and exchanges on all orders</li>
-            <li> &nbsp;&nbsp;$10 off a purchase on your birthday</li>
-            <li> &nbsp;&nbsp;Early access to products</li>
-            <li> &nbsp;&nbsp;Exclusive offers & rewards</li>
+            <li> &nbsp; 15% off welcome offer</li>
+            <li> &nbsp; Free shipping, returns and exchanges on all orders</li>
+            <li> &nbsp; $10 off a purchase on your birthday</li>
+            <li> &nbsp; Early access to products</li>
+            <li> &nbsp; Exclusive offers & rewards</li>
           </ul>
         </div>
       </section>

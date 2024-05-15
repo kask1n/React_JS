@@ -1,4 +1,11 @@
+import ProductList from './components/ProductList';
+import { store } from './components/store';
+import { Provider } from 'react-redux';
+import React from 'react';
 import './App.css';
+
+import AddProduct from './components/AddProduct';
+// import EditProductForm from './components/EditProductForm';
 
 function App() {
   return (
@@ -24,7 +31,13 @@ function App() {
 
         <h2>Решение:</h2>
 
-
+        <div className="App">
+          <Provider store={store}>
+            <AddProduct />
+            {/* <EditProductForm /> */}
+            <ProductList />
+          </Provider>
+        </div>
       </header>
     </div >
   );

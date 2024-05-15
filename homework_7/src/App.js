@@ -1,4 +1,7 @@
 import './App.css';
+import { store } from './components/store';
+import { Provider } from 'react-redux';
+import ToDos from './components/ToDos';
 
 function App() {
   return (
@@ -17,7 +20,9 @@ function App() {
 
         <h2>Решение:</h2>
 
-
+        <Provider store={store}>
+          <ToDos />
+        </Provider>
       </header>
     </div >
   );
